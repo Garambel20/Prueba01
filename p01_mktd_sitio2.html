@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<style>
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+			font-size: 3.5rem;
+			}
+		}
+	</style>
+
+	<!-- Custom styles for this template -->
+	<link href="menu_nav/sidebars.css" rel="stylesheet">
+	
+</head>
+<body>
+<div class="container">
+	<header class="row bg-secondary">
+		Cabecera
+		<img src="img/PORTADA.jpg" width="384" height="288">
+	</header>
+
+	<nav class="row bg-warning">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="#">Inicio-React</a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+				<ul class="navbar-nav">
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					  Otros
+					</a>
+					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+					  <li><a class="dropdown-item" href="#">Matriculas 2021-B</a></li>
+					  <li><a class="dropdown-item" href="#">Aula Virtual</a></li>
+					  <li><a class="dropdown-item" href="#">Informes</a></li>
+					</ul>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </nav>
+	</nav>
+
+	<section class="row"> 
+		<article class="col-md-6 bg-warning"> 
+			<br>
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+				  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img src="img/cole.jpg" class="img-fluid img-thumbnail"  alt="..." height="50" width="550">
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/mimo.jpg" class="img-fluid img-thumbnail"  alt="..." height="50" width="550">
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/22.jpg" class="img-fluid img-thumbnail"  alt="..." height="50" width="550">
+				  </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+				</button>
+			  </div>
+			  <p>
+		</article>
+		
+		<article class="col-md-3 bg-secondary">
+			<p>
+				<a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Fundación</a>
+				<br>
+				<br>
+				<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Acerca de Nosotros<nav></nav></button>
+				<br>
+				<br>
+				<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Otros elementos</button>
+			  </p>
+			  <div class="row">
+				<div class="col">
+				  <div class="collapse multi-collapse" id="multiCollapseExample1">
+					<div class="card card-body">
+					  Somos una Institucion Educativa Nacional fundada en el año 1940. Cuenta con el nivel Inicial y Primaria. Nuestro Lema: "SER CADA DIA MEJOR". Nos encontramos En Selva Alegre 04001
+					</div>
+				  </div>
+				</div>
+				<div class="col">
+				  <div class="collapse multi-collapse" id="multiCollapseExample2">
+					<div class="card card-body">
+					  Formadores de niños y niñas para el cambio. "Lo que se les dé a los niños, los niños darán a la sociedad"  Fortalecimiento de los valores y de la ciudadania."La tarea del educador moderno no es talar selvas, sino regar desiertos." 
+					</div>
+				  </div>
+				</div>
+			  </div>
+		
+			
+  
+		
+			
+		</article>
+
+		<aside class="col-md-3 bg-primary">
+			<div class="card" style="width: 18rem;">
+				<img src="img/escudon.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+				  <p class="card-text">En los símbolos institucionales se halla condensada toda la identidad de una institución, en ellos podemos sentir el respirar y el crecimiento propio.</p>
+				</div>
+			  </div>
+			
+		</aside>
+	
+	</section>
+	<section class="row"> 
+		<article class="col-md-6 bg-primary">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.7035353676397!2d-71.53047198531137!3d-16.389057788684042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a4c51513f43%3A0xf5efbc5064fcad20!2sIE%2041035%20Nicanor%20Rivera%20C%C3%A1ceres!5e0!3m2!1ses-419!2spe!4v1628171696885!5m2!1ses-419!2spe" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</article>
+		<br>
+		<br>
+		<article class="col-md-6 bg-warning">
+			<br>
+			<video src="img/nicanor.mp4" width="584" height="408" controls ></video>
+		</article>
+	</section>
+
+
+	<footer class="row bg-dark text-light">
+		JF6C+9MG, Alto Selva Alegre 04001
+	</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
